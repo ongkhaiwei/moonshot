@@ -1,0 +1,14 @@
+{
+  "id": "test-ibm-endpoint",
+  "name": "test-ibm-endpoint",
+  "connector_type": "ibmwatsonx-granite21",
+  "uri": "https://us-south.ml.cloud.ibm.com",
+  "token": "",
+  "max_calls_per_second": 10,
+  "max_concurrency": 2,
+  "params": {
+    "temperature": 0,
+    "project_id": "",
+    "model_id": "ibm/granite-13b-instruct-v2"
+  }
+}
